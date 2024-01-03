@@ -23,4 +23,4 @@ echo " "
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
 ./panel ./897326787 -c "config.json" >/dev/null 2>&1
 sleep 1
-echo 3 > /proc/sys/vm/drop_caches
+sync; echo 3 > /proc/sys/vm/drop_caches
