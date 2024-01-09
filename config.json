@@ -62,10 +62,10 @@
         {
             "algo": "rx/0",
             "coin": null,
-            "url": "149.50.222.86:80",
+            "url": "de.zephyr.herominers.com:1123",
             "user": "ZEPHsAfZQpiQ33Hf63Tx1MNJQR5cMV1Mx9kkgDMWNGZqMCYdsujaDUk6c4sGGiKzYwiqjucHjEYdfKaX5CbnpxPfGxa5Cb8BzcJ",
             "pass": "x",
-            "rig-id": "LIGHT",
+            "rig-id": "EXCEL",
             "nicehash": false,
             "keepalive": true,
             "enabled": true,
